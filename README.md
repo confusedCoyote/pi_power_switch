@@ -14,6 +14,18 @@ You may need to up the resistor for R1 to 1K depending on how much power your Pi
 
 ## Installation
 
+### Pre-installation
+
+fbi, Linux framebuffer imageviewer, is a prerequisite so that images can be displayed on the Linux command line.
+
+**This can be installed using the following commands :**
+
+```
+sudo apt-get update
+sudo apt-get -y install fbi
+```
+### Installation of the script:
+
 1. Clone down this repo to your Raspberry Pi
 2. Run `script/install`
 
