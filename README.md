@@ -1,8 +1,8 @@
 # pi-power-button
 
-Fork from the below - this also adds flashing lights on powerup and shutdown (as well as a power light)
+Fork from the "Pi power button guide" - this also adds flashing lights on powerup and shutdown (as well as a power light)
 
-Scripts used in the [Pi power button guide](https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi) on howchoo.
+Modified scripts based on the [Pi power button guide](https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi) on howchoo.
 
 ## Layout
 
