@@ -16,5 +16,4 @@ Breadboard implementation, showing both the on/off switch as well as the "traffi
 2. Run `script/install`
 
 That's it!
-# off-switch-paspberry-pi-lights
-# power_switch_raspberry_pi
+
