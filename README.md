@@ -8,6 +8,8 @@ Modified scripts based on the [Pi power button guide](https://howchoo.com/g/mwnl
 
 Breadboard implementation, showing both the on/off switch as well as the "traffic light" set of lights
 
+You may need to up the resistor for R1 to 1K depending on how much power your Pi is drawing
+
 ![](images/light-diagram.jpg)
 
 ## Installation
