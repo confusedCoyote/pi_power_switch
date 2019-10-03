@@ -3,7 +3,7 @@
 try:
     import RPi.GPIO as GPIO
 except RuntimeError:
-    print("Error importing RPi.GPIO!";
+    print("Error importing RPi.GPIO!")
     print("This is probably because you need superuser privileges.")
     print("You can achieve this by using 'sudo' to run your script")
 import subprocess
