@@ -19,17 +19,17 @@ POWER_BUTTON = 3
 ON_LIGHT_BCM = 27
 OFF_LIGHT_BCM = 24
 BOOT_LIGHT_BCM = 4
+SLEEP_TIME = 0.5  # Seconds between flashes
 
 # -----------------------------------------------------------------------------
 
 
 # blinking function
 def blinken_light(BCM_pin):
-    sleep_time = 0.5  # Seconds between flashes
     GPIO.output(BCM_pin, GPIO.HIGH)
-    time.sleep(sleep_time)
+    time.sleep(SLEEP_TIME)
     GPIO.output(BCM_pin, GPIO.LOW)
-    time.sleep(sleep_time)
+    time.sleep(SLEEP_TIME)
     return
 
 # -----------------------------------------------------------------------------
