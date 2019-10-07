@@ -1,0 +1,21 @@
+#! /bin/sh
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+echo "=> Copying shutdown image...\n"
+sudo cp images/winners-dont-use-drugs.png /root/winners-dont-use-drugs.png
+
+echo "=> Installing shutdown listener...\n"
+sudo cp lgb-listen-for-shutdown.py /usr/local/bin/
+sudo chmod +x /usr/local/bin/lgb-listen-for-shutdown.py
+
+echo "=> Starting shutdown listener...\n"
+sudo cp lgb-listen-for-shutdown.sh /etc/init.d/
+sudo chmod +x /etc/init.d/lgb-listen-for-shutdown.sh
+
+sudo update-rc.d lgb-listen-for-shutdown.sh defaults
+sudo /etc/init.d/lgb-listen-for-shutdown.sh start
+
+echo "Shutdown listener installed."

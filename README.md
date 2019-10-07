@@ -29,5 +29,14 @@ sudo apt-get -y install fbi
 1. Clone down this repo to your Raspberry Pi
 2. Run `script/install`
 
+## RGB LED option:
+
+It can also work using an RGB LED to produce the same results as using 3 LEDs.
+
+### Installation of the script:
+
+1. Clone down this repo to your Raspberry Pi
+2. Run `script/rgbinstall`
+
 That's it!
 
